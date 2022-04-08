@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - Check n to see if positive, zero 
+ * main - Check n to see if positive, zero
  * or negative
  * Return: 0 if exited properly, non-zero if otherwise
  */
@@ -13,7 +13,7 @@
 int main(void)
 {
 	int n;
-	
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
