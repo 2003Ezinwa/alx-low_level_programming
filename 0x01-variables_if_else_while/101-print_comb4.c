@@ -3,7 +3,7 @@
 /**
  * main - print possible combination of three digit numbers
  * being as small as possible and no
- * alternating of numbers in different 
+ * alternating of numbers in different
  * positions
  * Not even sure if I understood what I wrote
  * Return: 0 if successful
