@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/** 
+/**
  * main - base 16
  * Return: 0 if successful
  */
