@@ -4,7 +4,7 @@
  * main - print single digit number
  * without the use of any variable of
  * type char
- * Return: 0 if properly exited
+ * Return: 0 if properly exited, non-zero if otherwise
  */
 
 int main(void)
