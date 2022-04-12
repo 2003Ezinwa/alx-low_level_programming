@@ -14,7 +14,7 @@ void times_table(void)
 	{
 		for (column = 0; column <= 9; column++)
 		{
-			prouct = row * column;
+			product = row * column;
 			tens = product / 10;
 			ones = product % 10;
 			if (column == 0)
