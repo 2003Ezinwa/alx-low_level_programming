@@ -2,6 +2,7 @@
 
 /**
  * main - lowercase alpahbet with function
+ * function - prints alphabets
  * Return: 0 if successful
  */
 
