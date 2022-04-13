@@ -1,12 +1,10 @@
 #include "main.h"
-
 /**
  * print_times_table - prints time table
  * @n: integer for which the time table
  * will be printed
  * Return: void
  */
-
 void print_times_table(int n)
 {
 	int row, column, product;
