@@ -2,7 +2,7 @@
 
 /**
  * print_times_table - prints time table
- * @n: integer for which the time table 
+ * @n: integer for which the time table
  * will be printed
  * Return: void
  */
