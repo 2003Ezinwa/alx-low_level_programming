@@ -5,7 +5,7 @@
  * to the inputted size
  * @size: size is an integer and the size
  * of the square
- * Return: 0 if successful
+ * Return: void
  */
 
 void print_square(int size)
@@ -27,5 +27,4 @@ void print_square(int size)
 	{
 		_putchar('\n');
 	}
-	return (0);
 }
