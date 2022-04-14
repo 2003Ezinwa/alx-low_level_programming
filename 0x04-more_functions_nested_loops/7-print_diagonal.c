@@ -3,7 +3,7 @@
 /**
  * print_diagonal - print diagonal
  * @n: n is an integer and height
- * Return: 0 if successful
+ * Return: void
  */
 
 void print_diagonal(int n)
