@@ -3,7 +3,7 @@
 /**
  * print_line - print lineby length inputted
  * @n: n is an integer and the length
- * Return: 0 if successful
+ * Return: void
  */
 
 void print_line(int n)
@@ -22,5 +22,4 @@ void print_line(int n)
 	{
 		_putchar('\n');
 	}
-	return (0);
 }
