@@ -22,7 +22,7 @@ void print_triangle(int size)
 		{
 			for (j = 0; j < size; j++)
 			{
-				if (j < n)
+				if (j < space)
 				{
 					putchar(' ');
 				}
@@ -31,7 +31,7 @@ void print_triangle(int size)
 					_putchar('#');
 				}
 			}
-			n--;
+			space--;
 			_putchar('\n');
 		}
 	}
