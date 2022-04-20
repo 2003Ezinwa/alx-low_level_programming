@@ -22,7 +22,7 @@ int _atoi(char *s)
 		}
 		if (*(s + count) >= '-')
 		{
-			k *= -1;
+			k *= 1;
 		}
 		if (*(s + count) >= '0' && (*(s + count) <= '9'))
 		{
