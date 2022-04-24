@@ -10,21 +10,13 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	while (*s1 != '\0' && *s2 != '\0')
+	char *str1one = s1;
+	char *str2two = s2;
+
+	while (*str1one != '\0' && *str2two != '\0' && *str1one == *str2two)
 	{
-		s1++;
-		s2++;
+		str1one++;
+		str2two++;
 	}
-	if (*s1 == *s2)
-	{
-		return (0);
-	}
-	else if (*s1 > *s2)
-	{
-		return (1);
-	}
-	else if (*s1 < *s2)
-	{
-		return (-1);
-	}
+	return (*str1one - *str2two);
 }
