@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+ * main - add new line of code
+ * Return: void
+ */
+
 int main(void)
 {
 	int n;
