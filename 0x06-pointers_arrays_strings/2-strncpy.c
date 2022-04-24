@@ -2,7 +2,7 @@
 
 /**
  * _strncpy - copies one string into another
- * @dest: string 1 to be copied into
+ * @dest: string 1 to be copied to
  * @src: string 2 to be copied
  * @n: the number of letters to copy from string 2
  * Return: dest
