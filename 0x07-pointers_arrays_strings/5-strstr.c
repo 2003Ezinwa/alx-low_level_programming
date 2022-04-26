@@ -4,18 +4,17 @@
  * _strstr - check for a string in a string
  * @haystack: string to look into
  * @needle: string to look for
- * Return: pointer to beginning of located substring
+ * Return: pointer to beginning of substring
  */
 
 char *_strstr(char *haystack, char *needle)
-{
-	char *a = haystack, *b = needle;
+{	char *a = haystack, *b = needle;
 
 	while (*haystack)
 	{
 		while (*needle)
 		{
-			if (*haystack != *needle)
+			if (*haystack++ != *needle)
 			{
 				break;
 			}
