@@ -3,7 +3,7 @@
 /**
  * _strchr - return the first occurence
  * of a character in a string if it exists
- * else  return null
+ * else return null
  * @s: string
  * @c: character
  * Return: s if equal to c and null if s != c
