@@ -11,15 +11,14 @@
 char *_strdup(char *str)
 {
 	char *newstr;
-	unsigned int a;
-	int b;
+	unsigned int a, b;
 
 	if (str == NULL)
 	{
 		return (NULL);
 	}
 	a = 0;
-	while (str != '\0')
+	while (*str != '\0')
 	{
 		a++;
 	}
