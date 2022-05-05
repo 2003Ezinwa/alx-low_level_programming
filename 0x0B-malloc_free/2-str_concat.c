@@ -17,42 +17,24 @@ char *str_concat(char *s1, char *s2)
 
 	ptr = s1;
 	if (s1)
-	{
 		while (*ptr++)
-		{
 			sizeof1++;
-		}
-	}
 	else
-	{
 		s1 = "";
-	}
 	ptr = s2;
 	if (s2)
-	{
 		while (*ptr++)
-		{
 			sizeof2++;
-		}
-	}
 	else
-	{
 		s2 = "";
-	}
 	newmem = malloc(sizeof1 + sizeof2 + 1);
 	if (newmem == NULL)
-	{
 		return (NULL);
-	}
 	ptr = newmem;
 	while (*s1)
-	{
 		*ptr++ = *s1++;
-	}
 	while (*s2)
-	{
 		*ptr++ = *s2++;
-	}
 	*ptr = 0;
 	return (newmem);
 }
