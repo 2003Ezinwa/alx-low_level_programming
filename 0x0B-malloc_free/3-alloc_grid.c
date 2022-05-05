@@ -32,7 +32,7 @@ int **alloc_grid(int width, int height)
 		{
 			while (a > 0)
 			{
-				free(mat[a--]);
+				free(mat[a]);
 			}
 			free(mat);
 			return (NULL);
