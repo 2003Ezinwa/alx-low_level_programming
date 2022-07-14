@@ -10,28 +10,5 @@
 
 char *_strpbrk(char *s, char *accept)
 {
-	int a, b, count = 0;
-
-	for (a = 0; *s != '\0'; a++)
-	{
-		for (b = 0; accept[b] != '\0'; b++)
-		{
-			if (*s == accept[b])
-			{
-				count++;
-				break;
-			}
-
-		}
-		if (count)
-		{
-			return (s);
-		}
-		else
-		{
-			s++;
-		}
-
-	}
-	return (0);
+	return(0);
 }
