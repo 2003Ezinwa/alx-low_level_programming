@@ -1,24 +1,24 @@
 #include "hash_tables.h"
 
 /**
- * shash_table_create - creates a hash table
+ * hash_table_create - creates a hash table
  * @size: size of the array of linked list in the table
  *
- * Return: shash_table_t struct
+ * Return: hash_table_t struct
  */
-shash_table_t *shash_table_create(unsigned long int size)
+hash_table_t *hash_table_create(unsigned long int size)
 {
-	shash_table_t *sht;
+	hash_table_t *sht;
 
 	if (size == 0)
 		return (NULL);
 
-	sht = calloc(1, sizeof(shash_table_t));
+	sht = calloc(1, sizeof(hash_table_t));
 	if (!sht)
 		return (NULL);
 
 	sht->size = size;
-	sht->array = calloc((size_t)sht->size, sizeof(shash_node_t *));
+	sht->array = calloc((size_t)sht->size, sizeof(hash_node_t *));
 	if (sht->array == NULL)
 	{
 		free(sht);
@@ -29,14 +29,14 @@ shash_table_t *shash_table_create(unsigned long int size)
 }
 
 /**
- * shash_table_set - adds an element to the hash table
+ * hash_table_set - adds an element to the hash table
  * @ht: hash table to add the element to
  * @key: key of the element, will give the index in the array
  * @value: value of the element to store in the array
  *
  * Return: 1 on success, 0 otherwise
  */
-int shash_table_set(shash_table_t *ht, const char *key, const char *value)
+int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
 	unsigned long int index;
 	shash_node_t *new;
